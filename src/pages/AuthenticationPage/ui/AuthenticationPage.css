@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "CalibriRegular";
+    src: url('../../../shared/fonts/Calibri\ Regular.ttf');
+}
+.form {
+    background-color: #FFFFFF;
+    height: 5vh;
+    width: 30vw !important;
+    border: 2px solid #006B73 !important;
+    border-radius: 15px !important;
+    opacity: 0.7;
+    margin-bottom: 1vh;
+}
+.form1{
+    background-color: #FFFFFF;
+    height: 5vh;
+    width: 20vw !important;
+    border: 2px solid #006B73 !important;
+    border-radius: 15px !important;
+    opacity: 0.7;
+    margin-bottom: 1vh;
+}
+@media (max-height: 930px) {
+    .form {
+        height: 3rem;
+    }
+}
+input.auth_input::placeholder {
+    color: white;
+    font-family: "CalibriRegular";
+    font-weight: 200;
+}
+.btn_auth {
+    background-color: #F0F0F3 !important;
+    color: rgba(0, 107, 115, 0.7) !important;
+    border-radius:15px !important;
+    border: #006B73 2px solid !important;
+    opacity:0.7;
+    width: 14vw !important;
+    height: 38px !important;
+    margin-top: 6vh !important;
+    box-shadow: inset -5px -5px 8px 0px rgba(0, 0, 0, 0.25);
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.btn_auth:hover {
+    background-color: #006B73 !important;
+    border: #006B73 2px solid !important;
+    color: #F0F0F3 !important;
+}
+
+.btn_auth_text {
+    font-size: 1vw;
+    font-family: "CalibriRegular" ;
+}
+
+.btn_auth_text:hover {
+    color: #F0F0F3;
+}
+
+.link_text {
+    font-family: "CalibriRegular" ;
+    color:#959595;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link_text:hover {
+    color: #006B73;
+}
+
+.show-pswrd-btn {
+    width: 5vh;
+    height: 5vh;
+    margin-left: 4px;
+    border: 0 solid black !important; 
+}
+.showPassword {
+    height: 5vh;
+    margin-left: 2px;
+    border: 0 solid black !important; 
+    filter: opacity(0.2)
+}

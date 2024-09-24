@@ -1,0 +1,8 @@
+export const AUTH_ROUTE = '/authorization'
+export const REGISTRATION_ROUTE = '/registration'
+export const RECOVERY_ROUTE = '/recovery'
+export const CONFIRM_REGISTRATION = '/confirm-registration'
+export const PROFILE_ROUTE = '/profile'
+export const TRAJECTORY_ROUTE = '/trajectory'
+export const VACANCY_ROUTE = '/vacancies'
+export const LANDING_ROUTE = '/landing'

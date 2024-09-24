@@ -1,0 +1,7 @@
+.theme-card{
+    box-shadow: 5px 5px 20px #00195245;
+    border-radius: 13px;
+}
+.lection-cards-container::-webkit-scrollbar {
+    display: none;
+}

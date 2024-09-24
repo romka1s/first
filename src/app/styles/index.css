@@ -1,0 +1,15 @@
+@import url("reset.css");
+
+.app {
+    max-height: 100%;
+}
+
+/*.page-wrapper {*/
+/*    flex-grow: 1;*/
+/*    min-height: calc(100vh - 52px);*/
+/*}*/
+
+.content-page {
+    display: flex;
+    padding: 20px;
+}

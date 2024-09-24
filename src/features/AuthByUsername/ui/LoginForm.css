@@ -1,0 +1,33 @@
+.login-form {
+    margin: 0 auto;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #131313;
+    margin-top: 10px;
+}
+
+.divider::before {
+    margin-right: 5px;
+    width: 95%;
+}
+
+.divider {
+    display: grid;
+    grid-template-columns: 190px 20px 190px;
+}
+

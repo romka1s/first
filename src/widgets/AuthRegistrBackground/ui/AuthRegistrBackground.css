@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "CalibriRegular"; 
+    src: url('../../../shared/fonts/Calibri\ Regular.ttf'); 
+} 
+.my_container{
+    background-color:#F0F0F3;
+    border-radius: 84px;
+    box-shadow: 10px 10px 10px #AEAEC0;
+    margin-left: 5rem !important;
+    height: 80vh;
+    width: 40vw !important;
+}
+
+.header{
+    font-family: "CalibriRegular" !important;
+    color: #006B73;
+    font-size: 3vw;
+}
+
+.text1{
+    margin-top: 5vh;
+    color: #959595;
+    font-family: "CalibriRegular";
+    font-size: 1.3vw;
+}
+
+.login_text1 {
+    font-family: "CalibriRegular" ;
+    font-size: 20px;
+    color: black;
+    /*margin-top: 10vh !important;*/
+}
+
+/*@media (max-height: 900px) {*/
+/*    .login_text1 {*/
+/*        margin-top: 4vh !important;*/
+/*        margin-bottom: 0;*/
+/*    }*/
+/*}*/
+
+.login_text2{
+    font-family:"CalibriRegular" ;
+    font-size: 20px;
+    color: #006B73;
+    text-decoration: none;
+}
+.login_text2:hover{
+    color: black;
+}
+.logo {
+    width: 30vw !important;
+    height: 30vh;
+}
+
+.auto-registration {
+    position: relative;
+    top: 68vh;
+}

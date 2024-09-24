@@ -1,0 +1,16 @@
+.lection-card-btn-1, .lection-card-btn-2{
+    background-color: #006B734D;
+    border:none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    height:2vw;
+}
+.lection-card-btn-2:active{
+    box-shadow: inset 2px -2px 2px #02234C33, inset -4px 4px 8px #006B7380;
+}
+.lection-card-btn-1:active{
+    box-shadow: inset -2px -2px 2px #02234C33, inset 4px 4px 8px #006B7380;
+}

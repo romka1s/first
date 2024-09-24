@@ -1,0 +1,30 @@
+.profileform-container{
+    box-shadow: 5px 5px 20px #00195245;
+    border-radius: 13px;
+    padding: 2px 15px 15px 10px;
+}
+.profileform-info{
+    border-color: #409096;
+    border-width: 2px;
+    border-radius: 10px;
+}
+.profileform-label{
+    color:#959595;
+    padding-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 9px;
+}
+.profileform-change-password-btn{
+    border:none;
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, #006B73, #02234C);
+    color:white;
+    width:65%;
+    height:2.3vw;
+}
+/* .profileform-change-password-btn:hover{
+    background-color: #164a3d;
+}
+.profileform-change-password-btn:active{
+    background-color: #0e382e;
+} */
